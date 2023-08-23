@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <WelcomeIntro />
+    <WalletConnect />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WelcomeIntro from './components/WelcomeIntro.vue'
+import WalletConnect from './components/WalletConnect.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WelcomeIntro,
+    WalletConnect,
   }
 }
 </script>
